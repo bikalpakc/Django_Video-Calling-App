@@ -23,4 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', register_page, name='register' ),
     path('login/', login_page, name='login' ),
+    path('dashboard/', dashboard_page, name='dashboard' ),
+    path('logout/', logout_page, name='logout' ),
+    path('meeting/', video_call, name='meeting' ),
+    path('join/', join_room, name='join' ),
 ]
