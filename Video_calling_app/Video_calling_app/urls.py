@@ -27,4 +27,5 @@ urlpatterns = [
     path('logout/', logout_page, name='logout' ),
     path('meeting/', video_call, name='meeting' ),
     path('join/', join_room, name='join' ),
+    path('', login_page, name='login' ),
 ]
